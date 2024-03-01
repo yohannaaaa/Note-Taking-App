@@ -1,0 +1,78 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #EEF0E5;
+ 
+}
+html{
+  /* changes it to 10px */
+  font-size: 62.5%;
+}
+h1{
+  text-align: center;
+  font-size: 4rem;
+  
+ 
+}
+.note-form{
+  display: flex;
+  flex-direction: column;
+  background-color: darkgray;
+  padding: 2rem;
+  gap: .5rem;
+}
+.main-topic{
+  font-size: 2.4rem;
+  padding: .5rem;
+ 
+}
+.sub-topic{
+  padding: .5rem;
+  font-size: 1.7rem;
+}
+textarea{
+  resize: none;
+  height: 15rem;
+  font-size: 1.5rem;
+ 
+}
+button{
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+  background-color: black;
+  padding: 13px;
+}
+.show-btn{
+  position: absolute; 
+  right: 0;
+  bottom: 0;
+  margin: 10px; 
+}
+/* Note list */
+.notes{ 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:20px;
+  margin-left: 90px;
+}
+.motive{
+  text-align: s;
+
+}
+.editedForm{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.donebtn{
+  background-color: aqua;
+  color: black;
+}
+.deletebtn{
+  background-color: red;
+}
+.editbtn{
+  background-color: blueviolet;
+}
